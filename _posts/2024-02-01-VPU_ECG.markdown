@@ -1,14 +1,13 @@
 ---
 layout: post
-title:  "ECG"
-date:   2024-08-28 22:21:59 +00:00
+title:  "ECG Signal Construction From Heart Sounds via Single Node, Surface Acoustic Sensing"
+date:   2024-02-01 22:21:59 +00:00
 image: /images/3dgaussian.jpg
 categories: research
-author: "Kaylee"
-authors: "<strong>Leonid Keselman</strong>, Martial Hebert"
-venue: "arXiv"
-arxiv: https://arxiv.org/abs/2308.14737
-code: https://github.com/leonidk/fmb-plus
-website: https://leonidk.github.io/fmb-plus
+authors: "<strong>Kaylee Yaxuan Li</strong>, Yasha Iravantchi, Hyunmin Park, Yiming Liu, Alanson Sample"
+venue: "46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)"
+# arxiv: https://arxiv.org/abs/2308.14737
+# code: https://github.com/leonidk/fmb-plus
+# website: https://leonidk.github.io/fmb-plus
 ---
-We show how shape reconstruction with 3D Gaussians can be expanded to include differentiable optical flow, colored mesh exports and more. 
+Effective means of enabling single-lead, non-intrusive, and dry electrocardiogram (ECG) measurements offer the potential for prolonged cardiac rhythm monitoring of mobile users in non-clinical environments. However, existing ECG measurement approaches require accurate electrode placement, cumbersome wiring, and require users to be stationary. Alternatively, current heart sound-based approaches such as phonocardiograms lack the sensitivity and precision to detect crucial cardiac rhythm features and are vulnerable to environmental noise. This work utilizes a wide bandwidth surface-acoustic-wave microphone on the neck to capture heart sounds via the carotid artery. A cross-modal autoencoder, a state-of-the-art algorithm for signal modality conversion, is proposed to transform heart acoustic signals into corresponding ECG waveforms. Results from a 9 participant study demonstrate the effectiveness of constructing a PQRST waveform from acoustic heart sounds and accurately determining critical PQRST metrics. Finally, mobile acoustic ECG wave construction of a user walking is demonstrated, laying the groundwork for unobtrusive, long-term, low-cost daily cardiac rhythm monitoring.
