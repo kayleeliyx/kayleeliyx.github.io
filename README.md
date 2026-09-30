@@ -10,7 +10,6 @@ GitHub builds it with Jekyll on every push; there is nothing to install.
 | Name, title, links (Email, CV, Scholar, LinkedIn, GitHub), photo | `_config.yml` |
 | Bio paragraphs | `index.html`, the `<section class="about">` block |
 | Publications | `_data/publications.yml` |
-| Education, experience, honors, service, teaching | `_data/education.yml`, `experience.yml`, `honors.yml`, `service.yml`, `teaching.yml` |
 | CV | replace `assets/Kaylee_Yaxuan_Li_CV.pdf` (keep the file name) |
 | Colors, fonts, spacing | `assets/css/style.css` (tokens at the top) |
 

@@ -198,28 +198,6 @@ section > h2 {
   font-size: 0.9rem;
 }
 
-/* ---------- CV rows (education, experience, honors, service, teaching) ---------- */
-section.cv { margin-top: 2.25rem; }
-.rows { list-style: none; margin: 0; padding: 0; }
-.row {
-  position: relative;
-  display: grid;
-  grid-template-columns: 6.5rem 1fr;
-  gap: 1rem;
-  margin-bottom: 0.85rem;
-}
-.row-years {
-  font-family: var(--sans);
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: var(--muted);
-  font-variant-numeric: tabular-nums;
-  padding-top: 0.12rem;
-}
-.row-body p { margin: 0; }
-.row-title { color: var(--text); }
-.row-detail { font-size: 0.95rem; color: var(--muted); line-height: 1.5; }
-
 /* ---------- Footer ---------- */
 .foot {
   margin-top: 3.5rem;
@@ -240,15 +218,6 @@ section.cv { margin-top: 2.25rem; }
     top: 0.1rem;
     margin: 0;
   }
-  .row { display: block; }
-  .row-years {
-    position: absolute;
-    left: calc(-1 * var(--gutter));
-    width: calc(var(--gutter) - 1.5rem);
-    text-align: right;
-    top: 0.05rem;
-    padding-top: 0;
-  }
 }
 
 /* ---------- Small screens ---------- */
@@ -260,5 +229,4 @@ section.cv { margin-top: 2.25rem; }
   .pub { grid-template-columns: 6.5rem 1fr; gap: 1rem; }
   .thumb-label { font-size: 0.85rem; }
   .thumb-tag { font-size: 0.7rem; }
-  .row { grid-template-columns: 5.25rem 1fr; gap: 0.75rem; }
 }
