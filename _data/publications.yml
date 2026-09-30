@@ -138,6 +138,6 @@
   authors: [Shupeng Lai, Menglu Lan, Yaxuan Li, Ben M. Chen]
   venue: Frontiers of Information Technology & Electronic Engineering, vol. 20, no. 1
   year: 2019
-  image: ""
+  image: quadrotor-sfc.jpg
   links:
     - { label: Paper, url: "https://doi.org/10.1631/FITEE.1800719" }
