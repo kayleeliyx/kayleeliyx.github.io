@@ -1,0 +1,117 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description | strip }}">
+  <meta name="author" content="{{ site.title }}">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description | strip }}">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/">
+  {% if site.photo != "" %}<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.photo }}">{% endif %}
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <main class="page">
+
+    <header class="intro">
+      <div class="intro-text">
+        <h1>{{ site.title }}</h1>
+        <p class="role">{{ site.position }}<br>{{ site.affiliation }}</p>
+        <nav class="links" aria-label="Contact and profiles">
+          {% if site.email_user != "" %}<a class="js-email" href="#" data-u="{{ site.email_user }}" data-d="{{ site.email_domain }}">Email</a>{% endif %}
+          {% if site.cv != "" %}<a href="{{ site.cv }}">CV</a>{% endif %}
+          {% if site.scholar != "" %}<a href="{{ site.scholar }}">Google Scholar</a>{% endif %}
+          {% if site.linkedin != "" %}<a href="{{ site.linkedin }}">LinkedIn</a>{% endif %}
+          {% if site.github != "" %}<a href="{{ site.github }}">GitHub</a>{% endif %}
+        </nav>
+        <noscript><p class="email-plain">{{ site.email_user }} [at] {{ site.email_domain }}</p></noscript>
+      </div>
+      {% if site.photo != "" %}
+      <img class="portrait" src="assets/img/{{ site.photo }}" alt="Portrait of {{ site.title }}" width="320" height="320">
+      {% endif %}
+    </header>
+
+    <section class="about" aria-label="About">
+      <p>
+        I am a Ph.D. candidate in Computer Science and Engineering at the University of Michigan,
+        advised by <a href="https://web.eecs.umich.edu/~kgshin/">Kang G. Shin</a> and
+        <a href="https://samsonsjarkal.github.io/KeSun/">Ke Sun</a>, and working closely with
+        <a href="https://alansonsample.com/">Alanson P. Sample</a>. I am a member of the
+        <a href="https://rtcl.eecs.umich.edu/">Real-Time Computing Laboratory</a> and the
+        <a href="https://ambient-intelligence-lab-umich-eecs.github.io/ami_lab_website/">Ambient Intelligence Lab</a>,
+        and I have been a research intern at Meta Reality Labs.
+      </p>
+      <p>
+        My research develops wearable and ubiquitous AI systems that interpret human activity and context
+        from multimodal data. I focus on sensing and efficient semantic representations of daily life,
+        long-horizon memory architectures for scalable reasoning, and proactive assistance on
+        resource-constrained wearable and mobile platforms. My work seeks to transform everyday human
+        experience into persistent, actionable intelligence that augments human perception, memory,
+        reasoning, and decision-making, with broader implications for physical AI and human–agent interaction.
+      </p>
+    </section>
+
+    <section class="pubs" aria-labelledby="pubs-h">
+      <h2 id="pubs-h">Publications</h2>
+      {% assign groups = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+      {% for group in groups %}
+      <div class="year-group">
+        <h3 class="year">{{ group.name }}</h3>
+        <ul class="pub-list">
+          {% for pub in group.items %}
+          <li class="pub">
+            <div class="thumb">
+              {% if pub.image and pub.image != "" %}
+              <img src="assets/img/pubs/{{ pub.image }}" alt="Figure from {{ pub.short }}" width="800" height="600" loading="lazy">
+              {% else %}
+              <span class="thumb-label" aria-hidden="true">{{ pub.short }}</span>
+              {% endif %}
+            </div>
+            <div class="pub-text">
+              <p class="pub-title">{{ pub.title }}</p>
+              <p class="pub-authors">{% for a in pub.authors %}{% if site.author_names contains a %}<span class="me">{{ a }}</span>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+              <p class="pub-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}</p>
+              {% if pub.note %}<p class="pub-note">{{ pub.note }}</p>{% endif %}
+              {% if pub.links %}
+              <p class="pub-links">{% for l in pub.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>
+              {% endif %}
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </section>
+
+    <section class="honors" aria-labelledby="honors-h">
+      <h2 id="honors-h">Honors</h2>
+      <ul>
+        {% for h in site.data.honors %}
+        <li><span class="honor-name">{% if h.url %}<a href="{{ h.url }}">{{ h.name }}</a>{% else %}{{ h.name }}{% endif %}</span><span class="honor-year">{{ h.year }}</span></li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <footer class="foot">
+      <p>Last updated {{ site.time | date: "%B %Y" }}</p>
+    </footer>
+  </main>
+
+  <script>
+    document.querySelectorAll('.js-email').forEach(function (a) {
+      a.href = 'mailto:' + a.dataset.u + '@' + a.dataset.d;
+    });
+  </script>
+</body>
+</html>

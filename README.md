@@ -1,14 +1,24 @@
-# updated website
+# kayleeliyx.github.io
 
-This repo is built on a fork of **Jekyll Now** from [this repository](https://github.com/barryclark/jekyll-now). **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
+Personal website of Kaylee Yaxuan Li, served by GitHub Pages at https://kayleeliyx.github.io.
+GitHub builds it with Jekyll on every push; there is nothing to install.
 
-The website design is just a modification of [Jon Barron's website](https://jonbarron.info/) and is converted for my own use, re-purposing my old markdown posts. **Feel free to use template for your own purposes**, but please respect copyright for all the images/content in my `images`, `pdfs`, `_posts` folders. 
+## Editing
 
+| To change | Edit |
+|---|---|
+| Name, title, links (Email, CV, Scholar, LinkedIn, GitHub), photo | `_config.yml` |
+| Bio paragraphs | `index.html`, the `<section class="about">` block |
+| Publications | `_data/publications.yml` |
+| Honors | `_data/honors.yml` |
+| Colors, fonts, spacing | `assets/css/style.css` (tokens at the top) |
 
+**Add a paper:** copy an entry in `_data/publications.yml` to the top, update the fields,
+and put an 800×600 figure in `assets/img/pubs/`. Entries without an `image` show a
+labelled tile using `short`. Your name is highlighted automatically in author lists
+(both spellings are listed under `author_names` in `_config.yml`).
 
-## issues
-* In general, jekyll will try to build a full page for every post. I skip that by forcing `permalink: /`. This creates multiple entries in sitemap.xml for index.html but is otherwise fine. 
-* If you want multiple paragraphs, consider using `excerpt_separator: <!--more-->` in `_config.yml`, for my own use I didn't need this. 
-* My own posts have lots of extra stuff left over from my old jekyll design ("author", long descriptions, etc.), feel free to ignore them
-* I use thumbnails, so I can upload arbitrary sized images but then only display small ones. The `_make_thumbnails.sh` script generates them and the html template looks in `tn/` for all images. 
-* I have three categories of post with slightly differerent formatting, so changing sizing requires edits in multiple paces. 
+**Add a photo or CV:** put the file in `assets/img/` or `assets/`, then set `photo:` or
+`cv:` in `_config.yml`. Links left empty are hidden.
+
+Changes are live about a minute after pushing.
