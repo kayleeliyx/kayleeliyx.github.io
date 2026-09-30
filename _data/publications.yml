@@ -3,13 +3,24 @@
 #
 # Fields
 #   title, authors (list, as printed on the paper), venue, year  — required
+#   equal   — authors with equal contribution (marked with *)
 #   short   — label shown in the thumbnail slot when there is no image
+#   tag     — small venue label under `short` in that slot
 #   image   — file in assets/img/pubs/ (4:3 works best; 800x600 JPEG)
 #   links   — list of {label, url}
 #   note    — optional one-line remark (e.g. an award)
 
+- title: "GOHi: Goal-Oriented Highlight Extraction for Long-Form Egocentric Video"
+  short: GOHi
+  tag: IMWUT 2026
+  authors: [Kaylee Yaxuan Li, Ke Sun, Kang G. Shin, Alanson P. Sample, Amy Karlson, Eric Whitmire, Yifan Wang]
+  venue: ACM IMWUT
+  year: 2026
+  image: ""
+
 - title: "EchoScriptor: Automatic Lifelogging Narratives via Activity-Based Audio–Language Model"
   short: EchoScriptor
+  tag: CHI 2026
   authors: [Kaylee Yaxuan Li, Xinghao Zhou, Haizhong Zheng, Kang G. Shin, Alanson P. Sample]
   venue: ACM CHI
   year: 2026
@@ -18,8 +29,30 @@
     - { label: Paper, url: "https://doi.org/10.1145/3772318.3791528" }
     - { label: PDF, url: "https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2026/chi26-li.pdf" }
 
+- title: "AutoCLC: Towards Automated Assessment and Feedback on Closed-Loop Communication in Team-based Healthcare Simulation Training"
+  short: AutoCLC
+  tag: ACM HEALTH 2026
+  authors: [Kaylee Yaxuan Li, Kunpeng Huang, Bryan Harmer, Casey Ducharme, Benjamin Heasman, Eleanor Falahee, James M. Cooke, Michael Cole, Alanson P. Sample, Vitaliy Popov]
+  equal: [Kaylee Yaxuan Li, Kunpeng Huang]
+  venue: ACM Transactions on Computing for Healthcare, vol. 7, no. 1
+  year: 2026
+  image: ""
+  links:
+    - { label: Paper, url: "https://doi.org/10.1145/3768164" }
+
+- title: "Leveraging AI for Automated Evaluation of Closed-Loop Communication in VR-based Acute Care Team Training"
+  short: CLC in VR
+  tag: CSCL 2025
+  authors: [Vitaliy Popov, Kaylee Yaxuan Li, Kunpeng Huang, Alanson P. Sample, Bryan Harmer, James Cooke, Michael Cole]
+  venue: International Conference on Computer-Supported Collaborative Learning (CSCL)
+  year: 2025
+  image: ""
+  links:
+    - { label: Paper, url: "https://par.nsf.gov/biblio/10603867" }
+
 - title: "HandSAW: Wearable Hand-based Event Recognition via On-Body Surface Acoustic Waves"
   short: HandSAW
+  tag: IMWUT 2025
   authors: [Kaylee Yaxuan Li, Yasha Iravantchi, Yichen Zhu, Hyunmin Park, Alanson P. Sample]
   venue: ACM IMWUT, vol. 9, no. 1
   year: 2025
@@ -30,6 +63,7 @@
 
 - title: "ECG Signal Construction From Heart Sounds via Single Node, Surface Acoustic Sensing"
   short: Acoustic ECG
+  tag: EMBC 2024
   authors: [Kaylee Yaxuan Li, Yasha Iravantchi, Hyunmin Park, Yiming Liu, Alanson P. Sample]
   venue: IEEE EMBC
   year: 2024
@@ -39,6 +73,7 @@
 
 - title: "BodyTrak: Inferring Full-body Poses from Body Silhouettes Using a Miniature Camera on a Wristband"
   short: BodyTrak
+  tag: IMWUT 2022
   authors: [Hyunchul Lim, Yaxuan Li, Matthew Dressa, Fang Hu, Jae Hoon Kim, Ruidong Zhang, Cheng Zhang]
   venue: ACM IMWUT, vol. 6, no. 3
   year: 2022
@@ -49,25 +84,20 @@
 
 - title: "Deep Learning in Human Activity Recognition with Wearable Sensors: A Review on Advances"
   short: HAR Review
+  tag: Sensors 2022
   authors: [Shibo Zhang, Yaxuan Li, Shen Zhang, Farzad Shahabi, Stephen Xia, Yu Deng, Nabil Alshurafa]
+  equal: [Shibo Zhang, Yaxuan Li]
   venue: Sensors, vol. 22, no. 4
   year: 2022
   image: har-review.jpg
+  note: Best Paper Award
   links:
     - { label: Paper, url: "https://doi.org/10.3390/s22041476" }
     - { label: arXiv, url: "https://arxiv.org/abs/2111.00418" }
 
-- title: "Towards Context-aware Automatic Haptic Effect Generation for Home Theatre Environments"
-  short: Haptic Effects
-  authors: [Yaxuan Li, Yongjae Yoo, Antoine Weill-Duflos, Jeremy Cooperstock]
-  venue: ACM VRST
-  year: 2021
-  image: vrst-haptics.jpg
-  links:
-    - { label: Paper, url: "https://doi.org/10.1145/3489849.3489887" }
-
 - title: "SpeeChin: A Smart Necklace for Silent Speech Recognition"
   short: SpeeChin
+  tag: IMWUT 2021
   authors: [Ruidong Zhang, Mingyang Chen, Benjamin Steeper, Yaxuan Li, Zihan Yan, Yizhuo Chen, Songyun Tao, Tuochao Chen, Hyunchul Lim, Cheng Zhang]
   venue: ACM IMWUT, vol. 5, no. 4
   year: 2021
@@ -76,12 +106,42 @@
     - { label: Paper, url: "https://doi.org/10.1145/3494987" }
     - { label: PDF, url: "https://czhang.org/assets/pdf/Speechin.pdf" }
 
+- title: "Towards Context-aware Automatic Haptic Effect Generation for Home Theatre Environments"
+  short: Haptic Effects
+  tag: VRST 2021
+  authors: [Yaxuan Li, Yongjae Yoo, Antoine Weill-Duflos, Jeremy R. Cooperstock]
+  venue: ACM VRST
+  year: 2021
+  image: vrst-haptics.jpg
+  links:
+    - { label: Paper, url: "https://doi.org/10.1145/3489849.3489887" }
+
 - title: "NeckFace: Continuously Tracking Full Facial Expressions on Neck-mounted Wearables"
   short: NeckFace
+  tag: IMWUT 2021
   authors: [Tuochao Chen, Yaxuan Li, Songyun Tao, Hyunchul Lim, Mose Sakashita, Ruidong Zhang, François Guimbretière, Cheng Zhang]
+  equal: [Tuochao Chen, Yaxuan Li, Songyun Tao]
   venue: ACM IMWUT, vol. 5, no. 2
   year: 2021
   image: neckface.jpg
   links:
     - { label: Paper, url: "https://doi.org/10.1145/3463511" }
     - { label: Video, url: "https://www.youtube.com/watch?v=PqsEky4LXhY" }
+
+- title: "Context-aware Automatic Haptic Effect Generation Algorithm for Improved Content Viewing Experiences"
+  short: Haptic Effects
+  tag: WHC 2021 WIP
+  authors: [Yaxuan Li, Yongjae Yoo, Antoine Weill-Duflos, Jeremy R. Cooperstock]
+  venue: IEEE World Haptics Conference (WHC), Work-in-Progress
+  year: 2021
+  image: ""
+
+- title: "Safe Navigation of Quadrotors with Jerk Limited Trajectory"
+  short: Quadrotor Navigation
+  tag: FITEE 2019
+  authors: [Shupeng Lai, Menglu Lan, Yaxuan Li, Ben M. Chen]
+  venue: Frontiers of Information Technology & Electronic Engineering, vol. 20, no. 1
+  year: 2019
+  image: ""
+  links:
+    - { label: Paper, url: "https://doi.org/10.1631/FITEE.1800719" }

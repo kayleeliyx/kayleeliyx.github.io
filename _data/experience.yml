@@ -1,0 +1,24 @@
+# Industry and research experience, newest first. `detail` is optional.
+- years: "2025"
+  title: Research Scientist Intern, Meta Reality Labs
+  detail: Keyframe extraction for long-form egocentric video on Meta AI glasses
+
+- years: "2021–2022"
+  title: Research Intern, Carnegie Mellon University
+  detail: "RGB-D saliency detection for virtual reality, with David Lindlbauer"
+
+- years: "2021"
+  title: Machine Learning Intern, Samasource Impact Sourcing
+  detail: Image and video annotation platform
+
+- years: "2020–2021"
+  title: Research Intern, Cornell University
+  detail: "Wearable sensing for pose, facial expression, and silent speech, with Cheng Zhang and François Guimbretière"
+
+- years: "2019"
+  title: Research Intern, National University of Singapore
+  detail: "Key-point matching for 3D non-rigid shapes, with Gim Hee Lee"
+
+- years: "2018"
+  title: Research Intern, National University of Singapore
+  detail: "Real-time 3D mapping and trajectory planning for micro aerial vehicles, with Ben M. Chen"

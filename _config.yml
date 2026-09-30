@@ -8,12 +8,12 @@ description: >-
   and proactive assistance on resource-constrained devices.
 
 # Profile photo in assets/img/ (leave empty to hide the photo).
-photo: ""
+photo: profile.jpg
 
 # Links shown under your name. Leave a value empty to hide that link.
 email_user: yaxuanli
 email_domain: umich.edu
-cv: ""               # e.g. assets/Kaylee_Li_CV.pdf
+cv: assets/Kaylee_Yaxuan_Li_CV.pdf
 scholar: https://scholar.google.com/citations?user=zmCbWwsAAAAJ&hl=en
 linkedin: ""         # e.g. https://www.linkedin.com/in/your-handle
 github: ""           # e.g. https://github.com/kayleeliyx
