@@ -16,8 +16,7 @@ GitHub builds it with Jekyll on every push; there is nothing to install.
 **Add a paper:** copy an entry in `_data/publications.yml` to the top, update the fields,
 and put an 800×600 figure in `assets/img/pubs/`. Entries without an `image` show a
 labelled tile using `short`. Your name is highlighted automatically in author lists
-(both spellings are listed under `author_names` in `_config.yml`); list co-first
-authors under `equal` to mark them with *.
+(both spellings are listed under `author_names` in `_config.yml`).
 
 **Add a photo or CV:** put the file in `assets/img/` or `assets/`, then set `photo:` or
 `cv:` in `_config.yml`. Links left empty are hidden.

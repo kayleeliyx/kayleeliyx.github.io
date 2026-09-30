@@ -3,7 +3,6 @@
 #
 # Fields
 #   title, authors (list, as printed on the paper), venue, year  — required
-#   equal   — authors with equal contribution (marked with *)
 #   short   — label shown in the thumbnail slot when there is no image
 #   tag     — small venue label under `short` in that slot
 #   image   — file in assets/img/pubs/ (4:3 works best; 800x600 JPEG)
@@ -33,7 +32,6 @@
   short: AutoCLC
   tag: ACM HEALTH 2026
   authors: [Kaylee Yaxuan Li, Kunpeng Huang, Bryan Harmer, Casey Ducharme, Benjamin Heasman, Eleanor Falahee, James M. Cooke, Michael Cole, Alanson P. Sample, Vitaliy Popov]
-  equal: [Kaylee Yaxuan Li, Kunpeng Huang]
   venue: ACM Transactions on Computing for Healthcare, vol. 7, no. 1
   year: 2026
   image: ""
@@ -86,7 +84,6 @@
   short: HAR Review
   tag: Sensors 2022
   authors: [Shibo Zhang, Yaxuan Li, Shen Zhang, Farzad Shahabi, Stephen Xia, Yu Deng, Nabil Alshurafa]
-  equal: [Shibo Zhang, Yaxuan Li]
   venue: Sensors, vol. 22, no. 4
   year: 2022
   image: har-review.jpg
@@ -120,7 +117,6 @@
   short: NeckFace
   tag: IMWUT 2021
   authors: [Tuochao Chen, Yaxuan Li, Songyun Tao, Hyunchul Lim, Mose Sakashita, Ruidong Zhang, François Guimbretière, Cheng Zhang]
-  equal: [Tuochao Chen, Yaxuan Li, Songyun Tao]
   venue: ACM IMWUT, vol. 5, no. 2
   year: 2021
   image: neckface.jpg
@@ -134,7 +130,7 @@
   authors: [Yaxuan Li, Yongjae Yoo, Antoine Weill-Duflos, Jeremy R. Cooperstock]
   venue: IEEE World Haptics Conference (WHC), Work-in-Progress
   year: 2021
-  image: ""
+  image: whc-haptic-chair.jpg
 
 - title: "Safe Navigation of Quadrotors with Jerk Limited Trajectory"
   short: Quadrotor Navigation
