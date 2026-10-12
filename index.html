@@ -80,7 +80,7 @@ layout: null
               <p class="pub-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}</p>
               {% if pub.note %}<p class="pub-note">{{ pub.note }}</p>{% endif %}
               {% if pub.links %}
-              <p class="pub-links">{% for l in pub.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>
+              <p class="pub-links">{% for l in pub.links %}{% if l.label == "PDF" %}<a class="btn btn-pdf" href="{{ l.url }}" target="_blank" rel="noopener">PDF</a>{% endif %}{% endfor %}{% for l in pub.links %}{% unless l.label == "PDF" %}<a class="btn" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a>{% endunless %}{% endfor %}</p>
               {% endif %}
             </div>
           </li>

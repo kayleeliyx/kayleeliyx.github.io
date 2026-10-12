@@ -6,16 +6,20 @@
 #   short   — label shown in the thumbnail slot when there is no image
 #   tag     — small venue label under `short` in that slot
 #   image   — file in assets/img/pubs/ (4:3 works best; 800x600 JPEG)
-#   links   — list of {label, url}
+#   links   — list of {label, url}; a link labelled PDF is shown first as the
+#             filled button. Put self-hosted PDFs in assets/papers/.
 #   note    — optional one-line remark (e.g. an award)
 
 - title: "GOHi: Goal-Oriented Highlight Extraction for Long-Form Egocentric Video"
   short: GOHi
   tag: IMWUT 2026
   authors: [Kaylee Yaxuan Li, Ke Sun, Kang G. Shin, Alanson P. Sample, Amy Karlson, Eric Whitmire, Yifan Wang]
-  venue: ACM IMWUT
+  venue: ACM IMWUT, vol. 10, no. 4
   year: 2026
-  image: ""
+  image: gohi.jpg
+  links:
+    - { label: PDF, url: "assets/papers/Li_GOHi_IMWUT2026.pdf" }
+    - { label: Paper, url: "https://doi.org/10.1145/3857925" }
 
 - title: "EchoScriptor: Automatic Lifelogging Narratives via Activity-Based Audio–Language Model"
   short: EchoScriptor
@@ -23,10 +27,10 @@
   authors: [Kaylee Yaxuan Li, Xinghao Zhou, Haizhong Zheng, Kang G. Shin, Alanson P. Sample]
   venue: ACM CHI
   year: 2026
-  image: ""
+  image: echoscriptor.jpg
   links:
+    - { label: PDF, url: "assets/papers/Li_EchoScriptor_CHI2026.pdf" }
     - { label: Paper, url: "https://doi.org/10.1145/3772318.3791528" }
-    - { label: PDF, url: "https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2026/chi26-li.pdf" }
 
 - title: "AutoCLC: Towards Automated Assessment and Feedback on Closed-Loop Communication in Team-based Healthcare Simulation Training"
   short: AutoCLC
@@ -34,8 +38,9 @@
   authors: [Kaylee Yaxuan Li, Kunpeng Huang, Bryan Harmer, Casey Ducharme, Benjamin Heasman, Eleanor Falahee, James M. Cooke, Michael Cole, Alanson P. Sample, Vitaliy Popov]
   venue: ACM Transactions on Computing for Healthcare, vol. 7, no. 1
   year: 2026
-  image: ""
+  image: autoclc.jpg
   links:
+    - { label: PDF, url: "assets/papers/Li_AutoCLC_HEALTH2026.pdf" }
     - { label: Paper, url: "https://doi.org/10.1145/3768164" }
 
 - title: "Leveraging AI for Automated Evaluation of Closed-Loop Communication in VR-based Acute Care Team Training"
@@ -65,9 +70,9 @@
   authors: [Kaylee Yaxuan Li, Yasha Iravantchi, Hyunmin Park, Yiming Liu, Alanson P. Sample]
   venue: IEEE EMBC
   year: 2024
-  image: ""
+  image: ecg.jpg
   links:
-    - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/40040024/" }
+    - { label: Paper, url: "https://doi.org/10.1109/EMBC53108.2024.10781974" }
 
 - title: "BodyTrak: Inferring Full-body Poses from Body Silhouettes Using a Miniature Camera on a Wristband"
   short: BodyTrak
