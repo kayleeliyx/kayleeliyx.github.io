@@ -18,6 +18,10 @@ scholar: https://scholar.google.com/citations?user=zmCbWwsAAAAJ&hl=en
 linkedin: ""         # e.g. https://www.linkedin.com/in/your-handle
 github: ""           # e.g. https://github.com/kayleeliyx
 
+# Google Search Console: paste only the content="..." value of the
+# google-site-verification meta tag here (leave empty until you have it).
+google_site_verification: ""
+
 # Names highlighted in author lists.
 author_names:
   - Kaylee Yaxuan Li
@@ -27,6 +31,8 @@ author_names:
 url: https://kayleeliyx.github.io
 baseurl: ""
 markdown: kramdown
+plugins:
+  - jekyll-sitemap
 exclude:
   - README.md
   - Gemfile
