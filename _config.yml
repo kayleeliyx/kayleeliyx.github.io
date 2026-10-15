@@ -1,7 +1,7 @@
 # Site settings — edit these to update the header and links.
 title: Kaylee Yaxuan Li
-position: Ph.D. Candidate in Computer Science and Engineering
-affiliation: University of Michigan
+position: Ph.D. Candidate
+affiliation: "Computer Science and Engineering<br>University of Michigan"
 description: >-
   Kaylee Yaxuan Li is a Ph.D. candidate at the University of Michigan working on
   wearable and ubiquitous AI systems: multimodal sensing, long-horizon memory,
