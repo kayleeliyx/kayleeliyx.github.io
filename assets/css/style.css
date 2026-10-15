@@ -100,8 +100,8 @@ h1, h2, h3 { font-family: var(--sans); color: var(--ink); margin: 0; }
 .email-plain { font-family: var(--sans); font-size: 0.95rem; color: var(--muted); margin-top: 0.5rem; }
 .portrait {
   flex: 0 0 auto;
-  width: 15rem;
-  height: 15rem;
+  width: 12rem;
+  height: 12rem;
   object-fit: cover;
 }
 
@@ -236,7 +236,7 @@ section > h2 {
   body { font-size: 1rem; }
   .page { padding-top: 2.5rem; }
   .intro { flex-direction: column-reverse; gap: 1.25rem; }
-  .portrait { width: 100%; max-width: 20rem; height: auto; }
+  .portrait { width: 100%; max-width: 15rem; height: auto; }
   .pub { grid-template-columns: 6.5rem 1fr; gap: 1rem; }
   .thumb-label { font-size: 0.85rem; }
   .thumb-tag { font-size: 0.7rem; }

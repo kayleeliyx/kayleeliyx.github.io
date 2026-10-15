@@ -22,6 +22,9 @@ github: ""           # e.g. https://github.com/kayleeliyx
 # google-site-verification meta tag here (leave empty until you have it).
 google_site_verification: ""
 
+# Google Analytics 4 measurement ID (looks like G-XXXXXXXXXX). Empty = no tracking.
+google_analytics: ""
+
 # Names highlighted in author lists.
 author_names:
   - Kaylee Yaxuan Li
