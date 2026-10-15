@@ -38,3 +38,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+# Keep the Google Search Console verification file out of the sitemap.
+defaults:
+  - scope:
+      path: "google219b9e6494483ac4.html"
+    values:
+      sitemap: false
