@@ -13,7 +13,7 @@ photo: profile.jpg
 # Links shown under your name. Leave a value empty to hide that link.
 email_user: yaxuanli
 email_domain: umich.edu
-cv: assets/Kaylee_Yaxuan_Li_CV.pdf
+cv: ""               # e.g. assets/your_CV.pdf
 scholar: https://scholar.google.com/citations?user=zmCbWwsAAAAJ&hl=en
 linkedin: ""         # e.g. https://www.linkedin.com/in/your-handle
 github: ""           # e.g. https://github.com/kayleeliyx
