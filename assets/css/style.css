@@ -189,7 +189,7 @@ section > h2 {
   color: var(--ink);
   vertical-align: 0.08em;
 }
-.partner-logo { display: inline-block; height: 1.2em; width: auto; margin-left: 0.7rem; vertical-align: -0.22em; }
+.partner-logo { display: inline-block; height: 0.95em; width: auto; margin-left: 0.6rem; vertical-align: -0.1em; }
 @media (prefers-color-scheme: dark) {
   .partner-logo { background: #ffffff; padding: 2px 5px; border-radius: 3px; box-sizing: content-box; }
 }
