@@ -18,6 +18,7 @@
   venue: ACM IMWUT, vol. 10, no. 4
   year: 2026
   partner: Meta Reality Labs
+  partner_logo: meta-logo.png
   image: gohi.jpg
   links:
     - { label: PDF, url: "assets/papers/Li_GOHi_IMWUT2026.pdf" }

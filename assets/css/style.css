@@ -189,7 +189,10 @@ section > h2 {
   color: var(--ink);
   vertical-align: 0.08em;
 }
-.partner-logo { display: inline-block; height: 1.1em; width: auto; margin-left: 0.55rem; vertical-align: -0.15em; }
+.partner-logo { display: inline-block; height: 1.2em; width: auto; margin-left: 0.7rem; vertical-align: -0.22em; }
+@media (prefers-color-scheme: dark) {
+  .partner-logo { background: #ffffff; padding: 2px 5px; border-radius: 3px; box-sizing: content-box; }
+}
 .pub-note { font-size: 0.95rem; color: var(--ink); }
 .pub-links {
   margin-top: 0.55rem !important;
