@@ -8,8 +8,8 @@
 #   links   — list of {label, url}; a link labelled PDF is shown first as the
 #             filled button. Put self-hosted PDFs in assets/papers/.
 #   note    — optional one-line remark (e.g. an award)
-#   partner — optional collaborator label shown after the venue (e.g. Meta Reality Labs);
-#             add partner_logo: file in assets/img/ to show a logo image instead
+#   partner — collaborator name (used as the logo's alt text)
+#   partner_logo — logo file in assets/img/, shown after the venue
 
 - title: "GOHi: Goal-Oriented Highlight Extraction for Long-Form Egocentric Video"
   short: GOHi

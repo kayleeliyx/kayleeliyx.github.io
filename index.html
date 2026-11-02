@@ -89,7 +89,7 @@ layout: null
           <div class="pub-text">
             <p class="pub-title">{{ pub.title }}</p>
             <p class="pub-authors">{% for a in pub.authors %}{% if site.author_names contains a %}<span class="me">{{ a }}</span>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
-            <p class="pub-venue"><em>{{ pub.venue }}</em>{% if pub.partner_logo %}<img class="partner-logo" src="assets/img/{{ pub.partner_logo }}" alt="{{ pub.partner }}">{% elsif pub.partner %}<span class="partner">with {{ pub.partner }}</span>{% endif %}</p>
+            <p class="pub-venue"><em>{{ pub.venue }}</em>{% if pub.partner_logo %}<img class="partner-logo" src="assets/img/{{ pub.partner_logo }}" alt="{{ pub.partner }}" title="{{ pub.partner }}">{% endif %}</p>
             {% if pub.note %}<p class="pub-note">{{ pub.note }}</p>{% endif %}
             {% if pub.links %}
             <p class="pub-links">{% for l in pub.links %}{% if l.label == "PDF" %}<a class="btn btn-pdf" href="{{ l.url }}" target="_blank" rel="noopener">PDF</a>{% endif %}{% endfor %}{% for l in pub.links %}{% unless l.label == "PDF" %}<a class="btn" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a>{% endunless %}{% endfor %}</p>
