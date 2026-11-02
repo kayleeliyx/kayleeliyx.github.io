@@ -15,7 +15,7 @@
   short: GOHi
   tag: IMWUT
   authors: [Kaylee Yaxuan Li, Ke Sun, Kang G. Shin, Alanson P. Sample, Amy Karlson, Eric Whitmire, Yifan Wang]
-  venue: ACM IMWUT, vol. 10, no. 4
+  venue: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/UbiComp), vol. 10, no. 4
   year: 2026
   partner: Meta Reality Labs
   partner_logo: meta-logo.png
@@ -28,7 +28,7 @@
   short: EchoScriptor
   tag: CHI
   authors: [Kaylee Yaxuan Li, Xinghao Zhou, Haizhong Zheng, Kang G. Shin, Alanson P. Sample]
-  venue: ACM CHI
+  venue: Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI)
   year: 2026
   image: echoscriptor.jpg
   links:
@@ -50,7 +50,7 @@
   short: CLC in VR
   tag: CSCL
   authors: [Vitaliy Popov, Kaylee Yaxuan Li, Kunpeng Huang, Alanson P. Sample, Bryan Harmer, James Cooke, Michael Cole]
-  venue: International Conference on Computer-Supported Collaborative Learning (CSCL)
+  venue: 18th International Conference on Computer-Supported Collaborative Learning (CSCL)
   year: 2025
   image: cscl-clc.jpg
   links:
@@ -61,7 +61,7 @@
   short: HandSAW
   tag: IMWUT
   authors: [Kaylee Yaxuan Li, Yasha Iravantchi, Yichen Zhu, Hyunmin Park, Alanson P. Sample]
-  venue: ACM IMWUT, vol. 9, no. 1
+  venue: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/UbiComp), vol. 9, no. 1
   year: 2025
   image: handsaw.jpg
   links:
@@ -72,7 +72,7 @@
   short: Acoustic ECG
   tag: EMBC
   authors: [Kaylee Yaxuan Li, Yasha Iravantchi, Hyunmin Park, Yiming Liu, Alanson P. Sample]
-  venue: IEEE EMBC
+  venue: 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)
   year: 2024
   image: ecg.jpg
   links:
@@ -82,7 +82,7 @@
   short: BodyTrak
   tag: IMWUT
   authors: [Hyunchul Lim, Yaxuan Li, Matthew Dressa, Fang Hu, Jae Hoon Kim, Ruidong Zhang, Cheng Zhang]
-  venue: ACM IMWUT, vol. 6, no. 3
+  venue: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/UbiComp), vol. 6, no. 3
   year: 2022
   image: bodytrak.jpg
   links:
@@ -105,7 +105,7 @@
   short: SpeeChin
   tag: IMWUT
   authors: [Ruidong Zhang, Mingyang Chen, Benjamin Steeper, Yaxuan Li, Zihan Yan, Yizhuo Chen, Songyun Tao, Tuochao Chen, Hyunchul Lim, Cheng Zhang]
-  venue: ACM IMWUT, vol. 5, no. 4
+  venue: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/UbiComp), vol. 5, no. 4
   year: 2021
   image: speechin.jpg
   links:
@@ -116,7 +116,7 @@
   short: Haptic Effects
   tag: VRST
   authors: [Yaxuan Li, Yongjae Yoo, Antoine Weill-Duflos, Jeremy R. Cooperstock]
-  venue: ACM VRST
+  venue: 27th ACM Symposium on Virtual Reality Software and Technology (VRST)
   year: 2021
   image: vrst-haptics.jpg
   links:
@@ -126,7 +126,7 @@
   short: NeckFace
   tag: IMWUT
   authors: [Tuochao Chen, Yaxuan Li, Songyun Tao, Hyunchul Lim, Mose Sakashita, Ruidong Zhang, François Guimbretière, Cheng Zhang]
-  venue: ACM IMWUT, vol. 5, no. 2
+  venue: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/UbiComp), vol. 5, no. 2
   year: 2021
   image: neckface.jpg
   links:
